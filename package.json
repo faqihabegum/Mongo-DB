@@ -1,0 +1,25 @@
+{
+    "name": "js-build2",
+    "version": "1.0.0",
+    "description": "Library system",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://git.com/faqihabegum/JS-Build2"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^3.1.7"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "express": "^4.21.1",
+        "mongodb": "^6.10.0",
+        "mongoose": "^8.8.1"
+    }
+}
